@@ -1,0 +1,7 @@
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\bin\Debug\TestTester.dll
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\bin\Debug\TestTester.pdb
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\bin\Debug\VPNCalculator.dll
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\bin\Debug\VPNCalculator.pdb
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\obj\Debug\TestTester.dll
+C:\Users\Tony\cs3500\VPNCalculator\TestTester\obj\Debug\TestTester.pdb

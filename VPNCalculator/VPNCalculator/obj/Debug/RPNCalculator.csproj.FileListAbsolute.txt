@@ -1,0 +1,5 @@
+C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\bin\Debug\VPNCalculator.dll
+C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\bin\Debug\VPNCalculator.pdb
+C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\obj\Debug\VPNCalculator.dll
+C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\obj\Debug\VPNCalculator.pdb

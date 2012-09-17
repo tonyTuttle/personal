@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7473fb15-2533-4b95-acc3-e69f267fba31" name="Tony@TONY-PC 2012-09-16 19:08:54" runUser="Tony-PC\Tony" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25bd642a-b510-4f46-b05a-2096196e75d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tony_TONY-PC 2012-09-16 19_08_54">
+      <DeploymentItem filename="C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\bin\Debug\VPNCalculator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-16T19:08:54.5537987-06:00" queuing="2012-09-16T19:08:54.5597991-06:00" start="2012-09-16T19:08:54.5647994-06:00" finish="2012-09-16T19:08:54.7838119-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculatorConstructorTest" storage="c:\users\tony\cs3500\vpncalculator\testtester\bin\debug\testtester.dll" id="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8">
+      <Execution id="1a04b416-80da-48e0-a58d-a8d4285449d8" />
+      <TestMethod codeBase="C:/Users/Tony/cs3500/VPNCalculator/TestTester/bin/Debug/TestTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTester.CalculatorTest, TestTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorConstructorTest" />
+    </UnitTest>
+    <UnitTest name="EvaluateTest" storage="c:\users\tony\cs3500\vpncalculator\testtester\bin\debug\testtester.dll" id="e9293774-22f5-9476-37c7-6ca3eb3d8243">
+      <Execution id="304f3494-bee9-4457-b726-81dbf51473f9" />
+      <TestMethod codeBase="C:/Users/Tony/cs3500/VPNCalculator/TestTester/bin/Debug/TestTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTester.CalculatorTest, TestTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EvaluateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e9293774-22f5-9476-37c7-6ca3eb3d8243" executionId="304f3494-bee9-4457-b726-81dbf51473f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8" executionId="1a04b416-80da-48e0-a58d-a8d4285449d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="304f3494-bee9-4457-b726-81dbf51473f9" testId="e9293774-22f5-9476-37c7-6ca3eb3d8243" testName="EvaluateTest" computerName="TONY-PC" duration="00:00:00.0319459" startTime="2012-09-16T19:08:54.5667995-06:00" endTime="2012-09-16T19:08:54.7658109-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="304f3494-bee9-4457-b726-81dbf51473f9">
+      <Output>
+        <StdOut>2
+2</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at TestTester.CalculatorTest.EvaluateTest() in C:\Users\Tony\cs3500\VPNCalculator\TestTester\CalculatorTest.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a04b416-80da-48e0-a58d-a8d4285449d8" testId="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8" testName="CalculatorConstructorTest" computerName="TONY-PC" duration="00:00:00.0002488" startTime="2012-09-16T19:08:54.7678110-06:00" endTime="2012-09-16T19:08:54.7718112-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a04b416-80da-48e0-a58d-a8d4285449d8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

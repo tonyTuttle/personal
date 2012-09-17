@@ -1,0 +1,7 @@
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\bin\Debug\RPNTester.exe
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\bin\Debug\RPNTester.pdb
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\bin\Debug\VPNCalculator.dll
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\bin\Debug\VPNCalculator.pdb
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\obj\x86\Debug\RPNTester.exe
+C:\Users\Tony\cs3500\VPNCalculator\RPNTester\obj\x86\Debug\RPNTester.pdb

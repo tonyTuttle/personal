@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f867cdc1-4805-4c46-be3c-27c91b59f52c" name="Tony@TONY-PC 2012-09-16 19:16:31" runUser="Tony-PC\Tony" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25bd642a-b510-4f46-b05a-2096196e75d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tony_TONY-PC 2012-09-16 19_16_31">
+      <DeploymentItem filename="C:\Users\Tony\cs3500\VPNCalculator\VPNCalculator\bin\Debug\VPNCalculator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-16T19:16:31.6799449-06:00" queuing="2012-09-16T19:16:31.7729502-06:00" start="2012-09-16T19:16:31.8009518-06:00" finish="2012-09-16T19:16:32.0729673-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculatorConstructorTest" storage="c:\users\tony\cs3500\vpncalculator\testtester\bin\debug\testtester.dll" id="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8">
+      <Execution id="ae680750-6038-4b50-a970-c18d4002b5df" />
+      <TestMethod codeBase="C:/Users/Tony/cs3500/VPNCalculator/TestTester/bin/Debug/TestTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTester.CalculatorTest, TestTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatorConstructorTest" />
+    </UnitTest>
+    <UnitTest name="EvaluateTest" storage="c:\users\tony\cs3500\vpncalculator\testtester\bin\debug\testtester.dll" id="e9293774-22f5-9476-37c7-6ca3eb3d8243">
+      <Execution id="a4d6584b-016a-4c5e-a223-b8da8e198975" />
+      <TestMethod codeBase="C:/Users/Tony/cs3500/VPNCalculator/TestTester/bin/Debug/TestTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTester.CalculatorTest, TestTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EvaluateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e9293774-22f5-9476-37c7-6ca3eb3d8243" executionId="a4d6584b-016a-4c5e-a223-b8da8e198975" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8" executionId="ae680750-6038-4b50-a970-c18d4002b5df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a4d6584b-016a-4c5e-a223-b8da8e198975" testId="e9293774-22f5-9476-37c7-6ca3eb3d8243" testName="EvaluateTest" computerName="TONY-PC" duration="00:00:00.0175142" startTime="2012-09-16T19:16:31.8089522-06:00" endTime="2012-09-16T19:16:32.0509661-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4d6584b-016a-4c5e-a223-b8da8e198975">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae680750-6038-4b50-a970-c18d4002b5df" testId="cd00b55d-7572-a2c2-41cc-e55dd81b8ec8" testName="CalculatorConstructorTest" computerName="TONY-PC" duration="00:00:00.0002401" startTime="2012-09-16T19:16:32.0529662-06:00" endTime="2012-09-16T19:16:32.0569664-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae680750-6038-4b50-a970-c18d4002b5df">
+    </UnitTestResult>
+  </Results>
+</TestRun>
